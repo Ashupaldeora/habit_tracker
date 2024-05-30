@@ -138,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
         shape: CircleBorder(),
         child: Icon(
           Icons.add,
-          color: Colors.black,
+          color: Theme.of(context).colorScheme.inversePrimary,
         ),
       ),
       body: ListView(

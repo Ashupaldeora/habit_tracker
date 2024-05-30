@@ -26,7 +26,7 @@ class MyHabitTile extends StatelessWidget {
         endActionPane: ActionPane(motion: StretchMotion(), children: [
           SlidableAction(
             onPressed: editHabit,
-            backgroundColor: Colors.green.shade800,
+            backgroundColor: Colors.grey.shade700,
             icon: Icons.settings,
             borderRadius: BorderRadius.circular(8),
           ),
