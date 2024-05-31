@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
-import '../models/habit.dart';
-
 class MyHabitTile extends StatelessWidget {
   const MyHabitTile({
     super.key,
@@ -23,7 +21,7 @@ class MyHabitTile extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 5.0, horizontal: 25),
       child: Slidable(
-        endActionPane: ActionPane(motion: StretchMotion(), children: [
+        endActionPane: ActionPane(motion: const StretchMotion(), children: [
           SlidableAction(
             onPressed: editHabit,
             backgroundColor: Colors.grey.shade700,

@@ -1,9 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+
 import 'package:habit_tracker/components/heat_map.dart';
 import 'package:habit_tracker/database/habit_database.dart';
-import 'package:habit_tracker/theme/theme_provider.dart';
+
 import 'package:provider/provider.dart';
 
 import '../components/mhy_habit_tile.dart';
@@ -12,7 +11,7 @@ import '../models/habit.dart';
 import '../util/habit_util.dart';
 
 class HomeScreen extends StatefulWidget {
-  HomeScreen({super.key});
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -39,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (context) => AlertDialog(
         content: TextField(
           controller: textEditingController,
-          decoration: InputDecoration(hintText: "Create new habit"),
+          decoration: const InputDecoration(hintText: "Create new habit"),
         ),
         actions: [
           MaterialButton(
@@ -130,12 +129,12 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.transparent,
         foregroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
-      drawer: MyDrawer(),
+      drawer: const MyDrawer(),
       floatingActionButton: FloatingActionButton(
         onPressed: createNewHabit,
         elevation: 0,
         backgroundColor: Theme.of(context).colorScheme.tertiary,
-        shape: CircleBorder(),
+        shape: const CircleBorder(),
         child: Icon(
           Icons.add,
           color: Theme.of(context).colorScheme.inversePrimary,
