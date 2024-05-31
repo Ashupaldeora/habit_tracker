@@ -21,9 +21,13 @@ Habit Tracker is a cross-platform app built with Flutter to help you monitor and
    <img src="https://github.com/Ashupaldeora/habit_tracker/assets/143180848/faaa2fb3-c065-45cd-96a3-00964878e0c9" height=500px >
      <img src="https://github.com/Ashupaldeora/habit_tracker/assets/143180848/403f1a5e-a09c-42d1-9704-528180cb51a6" height=500px >
   
-  
+  <video src="https://github.com/Ashupaldeora/habit_tracker/assets/143180848/401f34cf-a8eb-4b41-9682-c4fd1756d9e0"></video>
   
   
 </div>
+
+
+
+
 
 
